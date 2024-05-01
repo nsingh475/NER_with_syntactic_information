@@ -10,7 +10,10 @@ Navigating vast datasets for model training can indeed pose challenges, particul
 
 ### Results
 ![image](https://github.com/nsingh475/NER_with_syntactic_information/assets/87938938/85616b69-db15-46d5-b31f-674df20d3fb1)
-In terms of the main tags, both the model using DG syntactic structures and the model using HPSG syntactic structures received the same accuracy or outperformed the baseline model on both B-tags and I-tags. However, the baseline model outper formed the model using DG syntactic structures and the model using HPSG syntactic structures on O-tags. Additionally, the model using the DG syntactic structure outperformed the model using HPSGsyntactic structure across all three main tags. Finally, in terms of sub-tags, the model using the DG syntactic structure outperformed the baseline and the model using the HPSG syntactic structure across all sub-tags excluding the Time entity sub tag (tim). On the other hand, the model using the HPSGsyntactic structure received the same accuracy or underperformed against the baseline across all sub-tags except the Geographical entity sub-tag(geo). When compared against the model using the DG syntactic structure, the model using the HPSG syntactic structure underperformed across all sub-tags except the Time entity sub-tag (tim).
+
+In terms of the main tags, both the model using DG syntactic structures and the model using HPSG syntactic structures received the same accuracy or outperformed the baseline model on both B-tags and I-tags. However, the baseline model outper formed the model using DG syntactic structures and the model using HPSG syntactic structures on O-tags. Additionally, the model using the DG syntactic structure outperformed the model using HPSGsyntactic structure across all three main tags. 
+
+Finally, in terms of sub-tags, the model using the DG syntactic structure outperformed the baseline and the model using the HPSG syntactic structure across all sub-tags excluding the Time entity sub tag (tim). On the other hand, the model using the HPSGsyntactic structure received the same accuracy or underperformed against the baseline across all sub-tags except the Geographical entity sub-tag(geo). When compared against the model using the DG syntactic structure, the model using the HPSG syntactic structure underperformed across all sub-tags except the Time entity sub-tag (tim).
 
 
 
