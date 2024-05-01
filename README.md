@@ -15,6 +15,10 @@ In terms of the main tags, both the model using DG syntactic structures and the 
 
 Finally, in terms of sub-tags, the model using the DG syntactic structure outperformed the baseline and the model using the HPSG syntactic structure across all sub-tags excluding the Time entity sub tag (tim). On the other hand, the model using the HPSGsyntactic structure received the same accuracy or underperformed against the baseline across all sub-tags except the Geographical entity sub-tag(geo). When compared against the model using the DG syntactic structure, the model using the HPSG syntactic structure underperformed across all sub-tags except the Time entity sub-tag (tim).
 
+### Conclusion
+
+In this project we demonstrated that the use of syntactic information boosts the performance of the Named Entity Recognition model significantly in terms of correctly identifying the B, I and O main labels. We also illustrated that the model accuracy is not the correct metric to evaluate the performance of the model for the NER task. Further, we investigated the model’s ability to accurately identify the category of a given named entity. We conclude that using syntactic information is better at identifying the main tags as well as sub-tags when compared to models only using POS tags.
+
 
 
 
